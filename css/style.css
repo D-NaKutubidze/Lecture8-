@@ -1,8 +1,58 @@
-.logo{
-display: inline-block;
-display width: 335px;
-display height:54px;
+.container {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    background-color: white;
+    height: 150px;
 }
-.nav{
+.box {
+    display:flex;
+    justify-content: center;
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    margin: 10px;
+    font-size: 20px;
+    margin-top: 68px
+}
+.logo{
+  width: 335px;
+  height: 54px;
+}
+
+}
+.woman{
+  width: 100%;
+  height: 938px;
+  position: absolute;
+}
+.white-box{
+  height: 187px;
+  width: 706px;
+  position: relative;
+}
+.second-section{
+  height: 779px;
   display: flex;
+}
+.article{
+  height: 302px;
+  width: 302px;
+  font-size: 20px;
+}
+.coffee{
+  width: 679px;
+  height: 453px;
+  left: 138px;
+  top: 1159px;
+  opacity: 1;
+}
+footer{
+  height:76px;
+  background-color: #306B34;
+}
+.footer{
+    display: flex;
 }
